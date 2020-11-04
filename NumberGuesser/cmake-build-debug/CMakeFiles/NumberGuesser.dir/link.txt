@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\NumberGuesser.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\NumberGuesser.dir/objects.a @CMakeFiles\NumberGuesser.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\NumberGuesser.dir/objects.a -Wl,--no-whole-archive  -o NumberGuesser.exe -Wl,--out-implib,libNumberGuesser.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\NumberGuesser.dir\linklibs.rsp
